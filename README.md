@@ -148,7 +148,7 @@ API with cars characteristics
     http://localhost:8080/api/cars?country=Germany&segment=E-segment&minEngineDisplacement=4.0&minEngineHorsepower=250&minMaxSpeed=200&search=5
     ```
     
-1. Содержит эндпоинты со следующими словарями:
+1. Содержит эндпоинты со следующими словарями, **на основе только тех данных, которые получены из внешней API**:
    * всех возможных типов топлива
    ```
    GET /api/fuel-types
