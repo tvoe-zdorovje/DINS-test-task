@@ -15,6 +15,8 @@ API with cars characteristics
    ```bash
    docker-compose up -d
    ```
+_If you get an error **Filesharing has been cancelled** on Windows – you need to add project directory to Resources -> File Sharing in Docker Desktop. (see: https://stackoverflow.com/questions/60754297/docker-compose-failed-to-build-filesharing-has-been-cancelled)_
+   
 1. You can check running containers with command
 
    ```bash
