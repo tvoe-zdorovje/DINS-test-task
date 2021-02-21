@@ -19,8 +19,8 @@ import static java.util.Collections.emptyList;
 public class ApiController {
 
     @GetMapping("/cars")
-    public ResponseEntity<? extends CarInfo> getCar(CarRequestParameters requestParameters) {
-        return ResponseEntity.ok(new CarInfo());
+    public ResponseEntity<List<? extends CarInfo>> getCars(CarRequestParameters requestParameters) {
+        return ResponseEntity.ok(emptyList());
     }
 
     @GetMapping("/fuel-types")
