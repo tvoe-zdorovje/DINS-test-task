@@ -1,10 +1,10 @@
 package com.rincentral.test.models.external;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.rincentral.test.models.external.enums.EngineType;
-import com.rincentral.test.models.external.enums.FuelType;
-import com.rincentral.test.models.external.enums.GearboxType;
-import com.rincentral.test.models.external.enums.WheelDriveType;
+import com.rincentral.test.models.enums.EngineType;
+import com.rincentral.test.models.enums.FuelType;
+import com.rincentral.test.models.enums.GearboxType;
+import com.rincentral.test.models.enums.WheelDriveType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
