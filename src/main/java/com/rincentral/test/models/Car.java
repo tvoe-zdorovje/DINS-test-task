@@ -3,6 +3,7 @@ package com.rincentral.test.models;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -14,7 +15,7 @@ import javax.persistence.Table;
 @Table(name = "CAR")
 public class Car extends AbstractBaseEntity {
 
-    @ManyToOne(targetEntity = Modification.class)
+    @ManyToOne(targetEntity = Modification.class, fetch = FetchType.LAZY)
     Modification modification;
 
     public Car(Integer id, Modification modification) {
