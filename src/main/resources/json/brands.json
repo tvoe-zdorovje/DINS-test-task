@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Audi",
+    "country": "Germany"
+  },
+  {
+    "id": 2,
+    "title": "Bentley",
+    "country": "England"
+  },
+  {
+    "id": 3,
+    "title": "BMW",
+    "country": "Germany"
+  },
+  {
+    "id": 4,
+    "title": "Chevrolet",
+    "country": "USA"
+  },
+  {
+    "id": 5,
+    "title": "Citroen",
+    "country": "France"
+  },
+  {
+    "id": 6,
+    "title": "Ferrari",
+    "country": "Italy"
+  },
+  {
+    "id": 7,
+    "title": "Hyundai",
+    "country": "Korea"
+  },
+  {
+    "id": 8,
+    "title": "Jaguar",
+    "country": "England"
+  },
+  {
+    "id": 9,
+    "title": "Kia",
+    "country": "Korea"
+  },
+  {
+    "id": 10,
+    "title": "Koenigsegg",
+    "country": "Sweden"
+  },
+  {
+    "id": 11,
+    "title": "Lada",
+    "country": "Russia"
+  },
+  {
+    "id": 12,
+    "title": "Lamborghini ",
+    "country": "Italy"
+  },
+  {
+    "id": 13,
+    "title": "Mercedes",
+    "country": "Germany"
+  },
+  {
+    "id": 14,
+    "title": "Renault",
+    "country": "France"
+  },
+  {
+    "id": 15,
+    "title": "Skoda",
+    "country": "Czech Republic"
+  },
+  {
+    "id": 16,
+    "title": "Toyota",
+    "country": "Japan"
+  },
+  {
+    "id": 17,
+    "title": "Volkswagen",
+    "country": "Germany"
+  },
+  {
+    "id": 18,
+    "title": "Volvo",
+    "country": "Sweden"
+  },
+  {
+    "id": 19,
+    "title": "The Brand",
+    "country": "Belarus"
+  },
+  {
+    "id": 20,
+    "title": "The Brand 2",
+    "country": "Belarus"
+  }
+]

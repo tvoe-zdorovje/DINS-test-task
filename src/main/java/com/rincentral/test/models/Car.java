@@ -1,11 +1,11 @@
 package com.rincentral.test.models;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -15,8 +15,8 @@ import javax.persistence.Table;
 @Table(name = "CAR")
 public class Car extends AbstractBaseEntity {
 
-    @ManyToOne(targetEntity = Modification.class, fetch = FetchType.LAZY)
-    Modification modification;
+    @ManyToOne(targetEntity = Modification.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
+    private Modification modification;
 
     public Car(Integer id, Modification modification) {
         super(id);

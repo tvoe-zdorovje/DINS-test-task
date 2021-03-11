@@ -1,16 +1,18 @@
 package com.rincentral.test.repositories;
 
-import com.rincentral.test.CarSpecification;
+import com.rincentral.test.repositories.specification.CarSpecification;
 import com.rincentral.test.models.Car;
 import com.rincentral.test.models.params.CarRequestParameters;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@ActiveProfiles("dev")
 @Transactional(readOnly = true)
 @SpringBootTest
 class CarRepositoryTest {
@@ -30,7 +32,7 @@ class CarRepositoryTest {
     CarRepository repository;
 
     @Test
-    void findAllWithCountry() {
+    void findAllWithCountryTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setCountry(COUNTRY);
         CarSpecification specification = new CarSpecification(parameters);
@@ -44,7 +46,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithSegment() {
+    void findAllWithSegmentTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setSegment(SEGMENT);
         CarSpecification specification = new CarSpecification(parameters);
@@ -58,7 +60,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithMinEngineDisplacement() {
+    void findAllWithMinEngineDisplacementTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setMinEngineDisplacement(ENGINE_DISPLACEMENT);
         CarSpecification specification = new CarSpecification(parameters);
@@ -72,7 +74,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithMinEngineHP() {
+    void findAllWithMinEngineHPTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setMinEngineHorsepower(HP);
         CarSpecification specification = new CarSpecification(parameters);
@@ -85,7 +87,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithMinMaxSpeed() {
+    void findAllWithMinMaxSpeedTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setMinMaxSpeed(MAX_SPEED);
         CarSpecification specification = new CarSpecification(parameters);
@@ -98,7 +100,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithModel() {
+    void findAllWithModelTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setSearch(MODEL);
         CarSpecification specification = new CarSpecification(parameters);
@@ -111,7 +113,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithGeneration() {
+    void findAllWithGenerationTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setSearch(GENERATION);
         CarSpecification specification = new CarSpecification(parameters);
@@ -124,7 +126,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithModification() {
+    void findAllWithModificationTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setSearch(MODIFICATION);
         CarSpecification specification = new CarSpecification(parameters);
@@ -137,7 +139,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithYear() {
+    void findAllWithYearTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setYear(YEAR);
         CarSpecification specification = new CarSpecification(parameters);
@@ -156,7 +158,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithBodyStyle() {
+    void findAllWithBodyStyleTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setBodyStyle(BODY_STYLE);
         CarSpecification specification = new CarSpecification(parameters);
@@ -169,7 +171,7 @@ class CarRepositoryTest {
     }
 
     @Test
-    void findAllWithSpecification() {
+    void findAllWithSpecificationTest() {
         CarRequestParameters parameters = new CarRequestParameters();
         parameters.setCountry(COUNTRY);
         parameters.setYear(YEAR);

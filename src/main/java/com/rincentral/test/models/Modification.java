@@ -20,7 +20,7 @@ public class Modification extends AbstractBaseEntity {
     @Column(name = "title", nullable = false)
     private String title;
 
-    @ManyToOne(targetEntity = Generation.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Generation.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Generation generation;
 
     @Column(name = "fuel_type", nullable = false)

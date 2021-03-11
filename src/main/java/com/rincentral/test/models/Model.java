@@ -1,7 +1,6 @@
 package com.rincentral.test.models;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -17,10 +16,10 @@ public class Model extends AbstractBaseEntity {
     @Column(name = "title", nullable = false)
     private String title;
 
-    @ManyToOne(targetEntity = Brand.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Brand.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Brand brand;
 
-    @ManyToOne(targetEntity = Segment.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Segment.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Segment segment;
 
     @Getter

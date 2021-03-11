@@ -1,4 +1,4 @@
-package com.rincentral.test;
+package com.rincentral.test.repositories.specification;
 
 import com.rincentral.test.models.*;
 import com.rincentral.test.models.params.CarRequestParameters;

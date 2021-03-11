@@ -15,6 +15,7 @@ import org.assertj.core.data.Offset;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
@@ -33,13 +34,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@ActiveProfiles("dev")
 @SpringBootTest
 class ApiControllerTest {
 
     private static final String URL = "/api/";
 
     private MockMvc mockMvc;
-    private final ExternalCarsApiService externalCarsApiService = new ExternalCarsApiService();
+
+    @Autowired
+    private ExternalCarsApiService externalCarsApiService;
 
     @Autowired
     private WebApplicationContext webApplicationContext;

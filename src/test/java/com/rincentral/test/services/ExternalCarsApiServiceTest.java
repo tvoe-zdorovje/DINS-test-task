@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+// requires external service enabled if profile is "prod"
+@ActiveProfiles("dev")
 @SpringBootTest
 class ExternalCarsApiServiceTest {
 
@@ -14,28 +15,33 @@ class ExternalCarsApiServiceTest {
     private ExternalCarsApiService externalCarsApiService;
 
     @Test
-    void loadAllCars() {
+    void loadAllCarsTest() {
         Assertions.assertFalse(externalCarsApiService.loadAllCars().isEmpty());
     }
 
     @Test
-    void loadCars() {
+    void loadCarsTest() {
         Assertions.assertFalse(externalCarsApiService.loadCars(0).isEmpty());
         Assertions.assertTrue(externalCarsApiService.loadCars(99999).isEmpty());
     }
 
     @Test
-    void loadCarInformationById() {
+    void loadCarInformationByIdTest() {
         Assertions.assertNotNull(externalCarsApiService.loadCarInformationById(1));
     }
 
     @Test
-    void loadAllBrands() {
+    void loadAllBrandsTest() {
         Assertions.assertFalse(externalCarsApiService.loadAllBrands().isEmpty());
     }
 
     @Test
-    void loadBrands() {
+    void loadBrandByIdTest() {
+        Assertions.assertNotNull(externalCarsApiService.loadBrandById(1));
+    }
+
+    @Test
+    void loadBrandsTest() {
         Assertions.assertFalse(externalCarsApiService.loadBrands(0).isEmpty());
         Assertions.assertTrue(externalCarsApiService.loadBrands(99999).isEmpty());
     }

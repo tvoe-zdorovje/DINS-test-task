@@ -1,0 +1,1330 @@
+[
+  {
+    "id": 1,
+    "segment": "A-segment",
+    "brand_id": 9,
+    "model": "Picanto",
+    "generation": "III generation",
+    "modification": "1.2 GT Line"
+  },
+  {
+    "id": 2,
+    "segment": "A-segment",
+    "brand_id": 9,
+    "model": "Picanto",
+    "generation": "II generation",
+    "modification": "1.2 Comfort"
+  },
+  {
+    "id": 3,
+    "segment": "A-segment",
+    "brand_id": 9,
+    "model": "Picanto",
+    "generation": "I generation",
+    "modification": "1.1 Luxe"
+  },
+  {
+    "id": 4,
+    "segment": "A-segment",
+    "brand_id": 4,
+    "model": "Spark",
+    "generation": "II generation",
+    "modification": "1.2 LT"
+  },
+  {
+    "id": 5,
+    "segment": "A-segment",
+    "brand_id": 4,
+    "model": "Spark",
+    "generation": "I generation",
+    "modification": "1.0 SX"
+  },
+  {
+    "id": 6,
+    "segment": "B-segment",
+    "brand_id": 11,
+    "model": "Granta",
+    "generation": "I generation",
+    "modification": "Sport"
+  },
+  {
+    "id": 7,
+    "segment": "B-segment",
+    "brand_id": 14,
+    "model": "Logan",
+    "generation": "II generation",
+    "modification": "1.6"
+  },
+  {
+    "id": 8,
+    "segment": "B-segment",
+    "brand_id": 14,
+    "model": "Logan",
+    "generation": "I generation",
+    "modification": "1.6"
+  },
+  {
+    "id": 9,
+    "segment": "B-segment",
+    "brand_id": 17,
+    "model": "Polo",
+    "generation": "Mk6",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 10,
+    "segment": "B-segment",
+    "brand_id": 17,
+    "model": "Polo",
+    "generation": "Mk5",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 11,
+    "segment": "B-segment",
+    "brand_id": 17,
+    "model": "Polo",
+    "generation": "Mk4",
+    "modification": "1.6"
+  },
+  {
+    "id": 12,
+    "segment": "B-segment",
+    "brand_id": 15,
+    "model": "Rapid",
+    "generation": "II generation",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 13,
+    "segment": "B-segment",
+    "brand_id": 15,
+    "model": "Rapid",
+    "generation": "I generation",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 14,
+    "segment": "B-segment",
+    "brand_id": 7,
+    "model": "Solaris",
+    "generation": "II generation",
+    "modification": "1.6"
+  },
+  {
+    "id": 15,
+    "segment": "B-segment",
+    "brand_id": 7,
+    "model": "Solaris",
+    "generation": "I generation",
+    "modification": "1.6"
+  },
+  {
+    "id": 16,
+    "segment": "B-segment",
+    "brand_id": 11,
+    "model": "Vesta",
+    "generation": "I generation",
+    "modification": "Sport"
+  },
+  {
+    "id": 17,
+    "segment": "C-segment",
+    "brand_id": 5,
+    "model": "C4",
+    "generation": "II generation",
+    "modification": "1.6 THP"
+  },
+  {
+    "id": 18,
+    "segment": "C-segment",
+    "brand_id": 5,
+    "model": "C4",
+    "generation": "I generation",
+    "modification": "1.6 THP"
+  },
+  {
+    "id": 19,
+    "segment": "C-segment",
+    "brand_id": 9,
+    "model": "Ceed",
+    "generation": "III generation",
+    "modification": "1.4 TGDi"
+  },
+  {
+    "id": 20,
+    "segment": "C-segment",
+    "brand_id": 9,
+    "model": "Ceed",
+    "generation": "II generation",
+    "modification": "1.6 DCT"
+  },
+  {
+    "id": 21,
+    "segment": "C-segment",
+    "brand_id": 9,
+    "model": "Ceed",
+    "generation": "I generation",
+    "modification": "2"
+  },
+  {
+    "id": 22,
+    "segment": "C-segment",
+    "brand_id": 16,
+    "model": "Corolla",
+    "generation": "XII generation",
+    "modification": "1.6 CVT"
+  },
+  {
+    "id": 23,
+    "segment": "C-segment",
+    "brand_id": 16,
+    "model": "Corolla",
+    "generation": "XI generation",
+    "modification": "1.8 CVT"
+  },
+  {
+    "id": 24,
+    "segment": "C-segment",
+    "brand_id": 16,
+    "model": "Corolla",
+    "generation": "X generation",
+    "modification": "1.6"
+  },
+  {
+    "id": 25,
+    "segment": "C-segment",
+    "brand_id": 16,
+    "model": "Corolla",
+    "generation": "IX generation",
+    "modification": "2.0 D"
+  },
+  {
+    "id": 26,
+    "segment": "C-segment",
+    "brand_id": 16,
+    "model": "Corolla",
+    "generation": "VIII generation",
+    "modification": "1.8"
+  },
+  {
+    "id": 27,
+    "segment": "C-segment",
+    "brand_id": 17,
+    "model": "Golf",
+    "generation": "Mk8",
+    "modification": "1.5 TSI"
+  },
+  {
+    "id": 28,
+    "segment": "C-segment",
+    "brand_id": 17,
+    "model": "Golf",
+    "generation": "Mk7",
+    "modification": "2.0 TDI 4Motion"
+  },
+  {
+    "id": 29,
+    "segment": "C-segment",
+    "brand_id": 17,
+    "model": "Golf",
+    "generation": "Mk6",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 30,
+    "segment": "C-segment",
+    "brand_id": 17,
+    "model": "Golf",
+    "generation": "Mk5",
+    "modification": "1.4. TSI GT"
+  },
+  {
+    "id": 31,
+    "segment": "C-segment",
+    "brand_id": 17,
+    "model": "Golf",
+    "generation": "Mk4",
+    "modification": "2.8 4Motion"
+  },
+  {
+    "id": 32,
+    "segment": "C-segment",
+    "brand_id": 15,
+    "model": "Octavia",
+    "generation": "Mk4",
+    "modification": "1.4 TSI"
+  },
+  {
+    "id": 33,
+    "segment": "C-segment",
+    "brand_id": 15,
+    "model": "Octavia",
+    "generation": "Mk3",
+    "modification": "1.8 TSI 4x4"
+  },
+  {
+    "id": 34,
+    "segment": "C-segment",
+    "brand_id": 15,
+    "model": "Octavia",
+    "generation": "Mk2",
+    "modification": "1.8 TSI"
+  },
+  {
+    "id": 35,
+    "segment": "C-segment",
+    "brand_id": 15,
+    "model": "Octavia",
+    "generation": "Mk1",
+    "modification": "1.8 T"
+  },
+  {
+    "id": 36,
+    "segment": "D-segment",
+    "brand_id": 3,
+    "model": "3 series",
+    "generation": "G20",
+    "modification": "M340i xDrive"
+  },
+  {
+    "id": 37,
+    "segment": "D-segment",
+    "brand_id": 3,
+    "model": "3 series",
+    "generation": "F30",
+    "modification": "340i xDrive"
+  },
+  {
+    "id": 38,
+    "segment": "D-segment",
+    "brand_id": 3,
+    "model": "3 series",
+    "generation": "E90",
+    "modification": "335 xi"
+  },
+  {
+    "id": 39,
+    "segment": "D-segment",
+    "brand_id": 3,
+    "model": "3 series",
+    "generation": "E46",
+    "modification": "330 xi"
+  },
+  {
+    "id": 40,
+    "segment": "D-segment",
+    "brand_id": 3,
+    "model": "3 series",
+    "generation": "E36",
+    "modification": "328i"
+  },
+  {
+    "id": 41,
+    "segment": "D-segment",
+    "brand_id": 1,
+    "model": "A4",
+    "generation": "B9",
+    "modification": "45 TFSI quattro"
+  },
+  {
+    "id": 42,
+    "segment": "D-segment",
+    "brand_id": 1,
+    "model": "A4",
+    "generation": "B8",
+    "modification": "3.0 TFSI quattro"
+  },
+  {
+    "id": 43,
+    "segment": "D-segment",
+    "brand_id": 1,
+    "model": "A4",
+    "generation": "B7",
+    "modification": "3.2 FSI quattro"
+  },
+  {
+    "id": 44,
+    "segment": "D-segment",
+    "brand_id": 1,
+    "model": "A4",
+    "generation": "B6",
+    "modification": "3.0 quattro"
+  },
+  {
+    "id": 45,
+    "segment": "D-segment",
+    "brand_id": 1,
+    "model": "A4",
+    "generation": "B5",
+    "modification": "2.8 quattro"
+  },
+  {
+    "id": 46,
+    "segment": "D-segment",
+    "brand_id": 13,
+    "model": "C-Class",
+    "generation": "W205",
+    "modification": "93 AMG 4MATIC"
+  },
+  {
+    "id": 47,
+    "segment": "D-segment",
+    "brand_id": 13,
+    "model": "C-Class",
+    "generation": "W204",
+    "modification": "C350 4MATIC"
+  },
+  {
+    "id": 48,
+    "segment": "D-segment",
+    "brand_id": 13,
+    "model": "C-Class",
+    "generation": "W203",
+    "modification": "C350 4MATIC"
+  },
+  {
+    "id": 49,
+    "segment": "D-segment",
+    "brand_id": 13,
+    "model": "C-Class",
+    "generation": "W202",
+    "modification": "C280"
+  },
+  {
+    "id": 50,
+    "segment": "D-segment",
+    "brand_id": 16,
+    "model": "Camry",
+    "generation": "XV70",
+    "modification": "3.5"
+  },
+  {
+    "id": 51,
+    "segment": "D-segment",
+    "brand_id": 16,
+    "model": "Camry",
+    "generation": "XV50",
+    "modification": "3.5"
+  },
+  {
+    "id": 52,
+    "segment": "D-segment",
+    "brand_id": 16,
+    "model": "Camry",
+    "generation": "XV40",
+    "modification": "3.5"
+  },
+  {
+    "id": 53,
+    "segment": "D-segment",
+    "brand_id": 16,
+    "model": "Camry",
+    "generation": "XV30",
+    "modification": "3"
+  },
+  {
+    "id": 54,
+    "segment": "D-segment",
+    "brand_id": 16,
+    "model": "Camry",
+    "generation": "XV20",
+    "modification": "3"
+  },
+  {
+    "id": 55,
+    "segment": "D-segment",
+    "brand_id": 17,
+    "model": "Passat",
+    "generation": "B8",
+    "modification": "2.0 TDI 4Motion"
+  },
+  {
+    "id": 56,
+    "segment": "D-segment",
+    "brand_id": 17,
+    "model": "Passat",
+    "generation": "B7",
+    "modification": "2.0 TSI"
+  },
+  {
+    "id": 57,
+    "segment": "D-segment",
+    "brand_id": 17,
+    "model": "Passat",
+    "generation": "B6",
+    "modification": "3.2 FSI 4Motion"
+  },
+  {
+    "id": 58,
+    "segment": "D-segment",
+    "brand_id": 17,
+    "model": "Passat",
+    "generation": "B5",
+    "modification": "4.0 4Motion"
+  },
+  {
+    "id": 59,
+    "segment": "D-segment",
+    "brand_id": 17,
+    "model": "Passat",
+    "generation": "B5",
+    "modification": "2.8"
+  },
+  {
+    "id": 60,
+    "segment": "D-segment",
+    "brand_id": 18,
+    "model": "S60",
+    "generation": "III generation",
+    "modification": "2.0 T5"
+  },
+  {
+    "id": 61,
+    "segment": "D-segment",
+    "brand_id": 18,
+    "model": "S60",
+    "generation": "II generation",
+    "modification": "3.0 T6"
+  },
+  {
+    "id": 62,
+    "segment": "D-segment",
+    "brand_id": 18,
+    "model": "S60",
+    "generation": "I generation",
+    "modification": "2.5T"
+  },
+  {
+    "id": 63,
+    "segment": "D-segment",
+    "brand_id": 7,
+    "model": "Sonata",
+    "generation": "DN8",
+    "modification": "2.5"
+  },
+  {
+    "id": 64,
+    "segment": "D-segment",
+    "brand_id": 7,
+    "model": "Sonata",
+    "generation": "LF",
+    "modification": "2.5"
+  },
+  {
+    "id": 65,
+    "segment": "D-segment",
+    "brand_id": 7,
+    "model": "Sonata",
+    "generation": "YF",
+    "modification": "2.4"
+  },
+  {
+    "id": 66,
+    "segment": "D-segment",
+    "brand_id": 7,
+    "model": "Sonata",
+    "generation": "EF",
+    "modification": "2.7"
+  },
+  {
+    "id": 67,
+    "segment": "D-segment",
+    "brand_id": 15,
+    "model": "Superb",
+    "generation": "B8",
+    "modification": "2.0 TSI 4x4"
+  },
+  {
+    "id": 68,
+    "segment": "D-segment",
+    "brand_id": 15,
+    "model": "Superb",
+    "generation": "B6",
+    "modification": "3.6"
+  },
+  {
+    "id": 69,
+    "segment": "D-segment",
+    "brand_id": 15,
+    "model": "Superb",
+    "generation": "B5",
+    "modification": "2.8"
+  },
+  {
+    "id": 70,
+    "segment": "D-segment",
+    "brand_id": 8,
+    "model": "XE",
+    "generation": "I generation",
+    "modification": "3.0 S"
+  },
+  {
+    "id": 71,
+    "segment": "F-segment",
+    "brand_id": 6,
+    "model": "488",
+    "generation": "I generation",
+    "modification": "3.9"
+  },
+  {
+    "id": 72,
+    "segment": "F-segment",
+    "brand_id": 3,
+    "model": "7 Series",
+    "generation": "G11",
+    "modification": "M760 Li xDrive"
+  },
+  {
+    "id": 73,
+    "segment": "F-segment",
+    "brand_id": 3,
+    "model": "7 Series",
+    "generation": "F01",
+    "modification": "760Li"
+  },
+  {
+    "id": 74,
+    "segment": "F-segment",
+    "brand_id": 3,
+    "model": "7 Series",
+    "generation": "E65",
+    "modification": "760Li"
+  },
+  {
+    "id": 75,
+    "segment": "F-segment",
+    "brand_id": 3,
+    "model": "7 Series",
+    "generation": "E38",
+    "modification": "750Li"
+  },
+  {
+    "id": 76,
+    "segment": "F-segment",
+    "brand_id": 12,
+    "model": "Aventador",
+    "generation": "I generation",
+    "modification": "6.5"
+  },
+  {
+    "id": 77,
+    "segment": "F-segment",
+    "brand_id": 2,
+    "model": "Continental GT",
+    "generation": "III generation",
+    "modification": "6"
+  },
+  {
+    "id": 78,
+    "segment": "F-segment",
+    "brand_id": 2,
+    "model": "Continental GT",
+    "generation": "II generation",
+    "modification": "6"
+  },
+  {
+    "id": 79,
+    "segment": "F-segment",
+    "brand_id": 2,
+    "model": "Continental GT",
+    "generation": "I generation",
+    "modification": "6"
+  },
+  {
+    "id": 80,
+    "segment": "F-segment",
+    "brand_id": 8,
+    "model": "Regera",
+    "generation": "I generation",
+    "modification": "5"
+  },
+  {
+    "id": 81,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "W223",
+    "modification": "S500 4MATIC L"
+  },
+  {
+    "id": 82,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "W222",
+    "modification": "S65 AMG L"
+  },
+  {
+    "id": 83,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "C217",
+    "modification": "S560 4MATIC"
+  },
+  {
+    "id": 84,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "W221",
+    "modification": "250 L"
+  },
+  {
+    "id": 85,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "W220",
+    "modification": "250 L"
+  },
+  {
+    "id": 86,
+    "segment": "F-segment",
+    "brand_id": 13,
+    "model": "S-Class",
+    "generation": "W140",
+    "modification": "250 L"
+  },
+  {
+    "id": 87,
+    "segment": "F-segment",
+    "brand_id": 1,
+    "model": "S8",
+    "generation": "D5",
+    "modification": "4.0 TFSI quattro"
+  },
+  {
+    "id": 88,
+    "segment": "F-segment",
+    "brand_id": 1,
+    "model": "S8",
+    "generation": "D4",
+    "modification": "4.0 TFSI quattro plus"
+  },
+  {
+    "id": 89,
+    "segment": "F-segment",
+    "brand_id": 1,
+    "model": "S8",
+    "generation": "D3",
+    "modification": "5.2 FSI quattro"
+  },
+  {
+    "id": 90,
+    "segment": "F-segment",
+    "brand_id": 1,
+    "model": "S8",
+    "generation": "D2",
+    "modification": "4.2 quattro"
+  },
+  {
+    "id": 91,
+    "segment": "F-segment",
+    "brand_id": 8,
+    "model": "XJ",
+    "generation": "V generation",
+    "modification": "5.0 S"
+  },
+  {
+    "id": 92,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "520i"
+  },
+  {
+    "id": 93,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "520d"
+  },
+  {
+    "id": 94,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "520d xDrive"
+  },
+  {
+    "id": 95,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "530i xDrive"
+  },
+  {
+    "id": 96,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "530d xDrive"
+  },
+  {
+    "id": 97,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "540i xDrive"
+  },
+  {
+    "id": 98,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "M550i"
+  },
+  {
+    "id": 99,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "G30",
+    "modification": "M5"
+  },
+  {
+    "id": 100,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "518d"
+  },
+  {
+    "id": 101,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "520d xDrive"
+  },
+  {
+    "id": 102,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "535i xDrive"
+  },
+  {
+    "id": 103,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "550i xDrive"
+  },
+  {
+    "id": 104,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "M550d"
+  },
+  {
+    "id": 105,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "F10",
+    "modification": "M5"
+  },
+  {
+    "id": 106,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E60",
+    "modification": "520d"
+  },
+  {
+    "id": 107,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E60",
+    "modification": "530d"
+  },
+  {
+    "id": 108,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E60",
+    "modification": "545i"
+  },
+  {
+    "id": 109,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E60",
+    "modification": "550i"
+  },
+  {
+    "id": 110,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E60",
+    "modification": "M5"
+  },
+  {
+    "id": 111,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E39",
+    "modification": "520d"
+  },
+  {
+    "id": 112,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E39",
+    "modification": "525d"
+  },
+  {
+    "id": 113,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E39",
+    "modification": "530i"
+  },
+  {
+    "id": 114,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E39",
+    "modification": "540i"
+  },
+  {
+    "id": 115,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E39",
+    "modification": "M5"
+  },
+  {
+    "id": 116,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E34",
+    "modification": "530i"
+  },
+  {
+    "id": 117,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E34",
+    "modification": "540i"
+  },
+  {
+    "id": 118,
+    "segment": "E-segment",
+    "brand_id": 3,
+    "model": "5 series",
+    "generation": "E34",
+    "modification": "M5"
+  },
+  {
+    "id": 119,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "40TFSI"
+  },
+  {
+    "id": 120,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "40TDI"
+  },
+  {
+    "id": 121,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "45TFSI quattro"
+  },
+  {
+    "id": 122,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "45TDI quattro"
+  },
+  {
+    "id": 123,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "55TFSI"
+  },
+  {
+    "id": 124,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C8",
+    "modification": "RS6"
+  },
+  {
+    "id": 125,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C7",
+    "modification": "1.8 TFSI"
+  },
+  {
+    "id": 126,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C7",
+    "modification": "2.0 TFSI"
+  },
+  {
+    "id": 127,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C7",
+    "modification": "3.0 TDI quattro"
+  },
+  {
+    "id": 128,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C7",
+    "modification": "3.0 TFSI quattro"
+  },
+  {
+    "id": 129,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C7",
+    "modification": "RS6"
+  },
+  {
+    "id": 130,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C6",
+    "modification": "2.0 TFSI"
+  },
+  {
+    "id": 131,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C6",
+    "modification": "3.0 TDI quattro"
+  },
+  {
+    "id": 132,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C6",
+    "modification": "3.0 TFSI quattro"
+  },
+  {
+    "id": 133,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C6",
+    "modification": "4.2 FSI quattro"
+  },
+  {
+    "id": 134,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C6",
+    "modification": "RS6"
+  },
+  {
+    "id": 135,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C5",
+    "modification": "2.5 TDI CVT"
+  },
+  {
+    "id": 136,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C5",
+    "modification": "2.7 T quattro"
+  },
+  {
+    "id": 137,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C5",
+    "modification": "4.2 quattro"
+  },
+  {
+    "id": 138,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C5",
+    "modification": "RS6"
+  },
+  {
+    "id": 139,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C4",
+    "modification": "1.8"
+  },
+  {
+    "id": 140,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C4",
+    "modification": "2.5 TDI quattro"
+  },
+  {
+    "id": 141,
+    "segment": "E-segment",
+    "brand_id": 1,
+    "model": "A6",
+    "generation": "C4",
+    "modification": "2.8 quattro"
+  },
+  {
+    "id": 142,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 220 d 4MATIC"
+  },
+  {
+    "id": 143,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 200"
+  },
+  {
+    "id": 144,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 300 e 4MATIC"
+  },
+  {
+    "id": 145,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 450 4MATIC"
+  },
+  {
+    "id": 146,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 53"
+  },
+  {
+    "id": 147,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W213",
+    "modification": "E 63 AMG S"
+  },
+  {
+    "id": 148,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W212",
+    "modification": "E200"
+  },
+  {
+    "id": 149,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W212",
+    "modification": "E300 4MATIC"
+  },
+  {
+    "id": 150,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W212",
+    "modification": "E500 4MATIC"
+  },
+  {
+    "id": 151,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W212",
+    "modification": "E 63 AMG S"
+  },
+  {
+    "id": 152,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W211",
+    "modification": "E220K"
+  },
+  {
+    "id": 153,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W211",
+    "modification": "E350 4MATIC"
+  },
+  {
+    "id": 154,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W211",
+    "modification": "E500 4MATIC"
+  },
+  {
+    "id": 155,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W211",
+    "modification": "E63 AMG"
+  },
+  {
+    "id": 156,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W210",
+    "modification": "E200K"
+  },
+  {
+    "id": 157,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W210",
+    "modification": "E320 4MATIC"
+  },
+  {
+    "id": 158,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W210",
+    "modification": "E430 4MATIC"
+  },
+  {
+    "id": 159,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W124",
+    "modification": "E320 4MATIC"
+  },
+  {
+    "id": 160,
+    "segment": "E-segment",
+    "brand_id": 13,
+    "model": "E-Class",
+    "generation": "W124",
+    "modification": "E500"
+  },
+  {
+    "id": 161,
+    "segment": "E-segment",
+    "brand_id": 18,
+    "model": "S90",
+    "generation": "I generation",
+    "modification": "D5 AWD"
+  },
+  {
+    "id": 162,
+    "segment": "E-segment",
+    "brand_id": 8,
+    "model": "XF",
+    "generation": "II generation",
+    "modification": "3.0 S"
+  },
+  {
+    "id": 163,
+    "segment": "E-segment",
+    "brand_id": 8,
+    "model": "XF",
+    "generation": "I generation",
+    "modification": "5"
+  },
+  {
+    "id": 164,
+    "segment": "F-segment",
+    "brand_id": 8,
+    "model": "XJ",
+    "generation": "IV generation",
+    "modification": "4.2"
+  },
+  {
+    "id": 165,
+    "segment": "Z-segment",
+    "brand_id": 19,
+    "model": "model",
+    "generation": "XYZ gen",
+    "modification": "1.4 Joker"
+  },
+  {
+    "id": 166,
+    "segment": "Z-segment",
+    "brand_id": 20,
+    "model": "model2",
+    "generation": "XYZ gen",
+    "modification": "1.4 Joker"
+  }
+]

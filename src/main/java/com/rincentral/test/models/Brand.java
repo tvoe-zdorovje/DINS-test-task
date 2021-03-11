@@ -16,7 +16,7 @@ public class Brand extends AbstractBaseEntity {
     @Column(name = "title", nullable = false)
     private String title;
 
-    @ManyToOne(targetEntity = Country.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Country.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Country country;
 
     @Getter

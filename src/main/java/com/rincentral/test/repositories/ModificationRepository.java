@@ -10,8 +10,9 @@ import java.util.Optional;
 @Transactional(readOnly = true)
 public interface ModificationRepository extends JpaRepository<Modification, Integer> {
 
-    @Query("SELECT m FROM Modification m WHERE m.title=?1 AND m.generation.title=?2 AND m.generation.model.title=?3")
-    Optional<Modification> find(String modTitle, String genTitle, String modelTitle);
+    @Query("SELECT m FROM Modification m WHERE m.title=?1 AND m.generation.title=?2 AND m.generation.model.title=?3 " +
+            "AND m.generation.model.brand.id=?4")
+    Optional<Modification> find(String modTitle, String genTitle, String modelTitle, Integer brandId);
 
     @Query("SELECT AVG(m.maxSpeed) FROM Modification m WHERE m.generation.model.title=?1")
     Double getAvgMaxSpeedByModel(String model);

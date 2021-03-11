@@ -11,12 +11,12 @@ import javax.persistence.*;
 @ToString(callSuper = true)
 @Entity
 @Table(name = "GENERATION")
-public class Generation extends AbstractBaseEntity{
+public class Generation extends AbstractBaseEntity {
 
     @Column(name = "title", nullable = false)
     private String title;
 
-    @ManyToOne(targetEntity = Model.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Model.class, fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Model model;
 
     @Column(name = "years", nullable = false)

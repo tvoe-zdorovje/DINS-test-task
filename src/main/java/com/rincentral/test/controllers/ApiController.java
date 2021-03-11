@@ -1,6 +1,6 @@
 package com.rincentral.test.controllers;
 
-import com.rincentral.test.CarSpecification;
+import com.rincentral.test.repositories.specification.CarSpecification;
 import com.rincentral.test.dto.CarInfo;
 import com.rincentral.test.models.Car;
 import com.rincentral.test.models.converters.CarConverter;
